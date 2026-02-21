@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule Your Free Consultation | Western Advisors</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="booking-header">
+        <div class="container">
+            <a href="index.html" class="back-link">&larr; Back to Home</a>
+        </div>
+    </header>
+
+    <!-- Booking Page Content -->
+    <section class="booking-content">
+        <div class="container">
+            <!-- Section 1: Headline -->
+            <div class="booking-section">
+                <h1 class="booking-title">Schedule Your Complimentary Retirement Tax Analysis</h1>
+                <p class="booking-subtitle">For Individuals Ages 59–75 with $500,000+ in IRA or 401(k) Accounts</p>
+                <p class="booking-intro">Gain clarity on future taxes, retirement income, and legacy impact before making major financial decisions.</p>
+            </div>
+
+            <!-- Section 2: What You Receive -->
+            <div class="booking-section value-section">
+                <h2>During Your Free Consultation, You'll Receive:</h2>
+                <ul class="value-list">
+                    <li>✓ <strong>Retirement Tax Overview Report</strong> – Your current tax bracket, future exposure, and RMD projections</li>
+                    <li>✓ <strong>After-Tax Income Comparison</strong> – See Scenario A (No Roth) vs. Scenario B (Strategic Roth Conversion)</li>
+                    <li>✓ <strong>Legacy Impact Analysis</strong> – After-tax inheritance comparison for your heirs</li>
+                    <li>✓ <strong>FREE Book:</strong> "Your 401k Is a Ticking Time Bomb" – 120-page paperback delivered to you</li>
+                </ul>
+                <p class="value-note">All personalized to your specific situation.</p>
+            </div>
+
+            <!-- Section 3: Who This Is For -->
+            <div class="booking-section qualification-section">
+                <h2>This consultation is ideal for:</h2>
+                <ul class="qualification-list">
+                    <li>• Ages 59-75</li>
+                    <li>• $500,000+ in retirement accounts</li>
+                    <li>• Within 10 years of retirement or already retired</li>
+                    <li>• Interested in reducing lifetime tax exposure</li>
+                </ul>
+                <p class="disclaimer">If a Roth conversion is not appropriate for your situation, we will tell you. The goal is clarity — not conversion for its own sake.</p>
+            </div>
+
+            <!-- Section 4: Calendly Widget -->
+            <div class="booking-section calendly-section">
+                <h2>Schedule Your Session</h2>
+                <p>Select a convenient time below:</p>
+                
+                <!-- Calendly Embed -->
+                <div class="calendly-embed">
+                    <iframe src="https://calendly.com/westernadvisors" 
+                            width="100%" 
+                            height="700" 
+                            frameborder="0"
+                            style="min-width:320px;">
+                    </iframe>
+                </div>
+            </div>
+
+            <!-- Divider -->
+            <div class="divider">
+                <span>OR</span>
+            </div>
+
+            <!-- Booking Form -->
+            <div class="booking-section form-section">
+                <h2>Complete This Form to Book Your Consultation</h2>
+                <p class="form-intro">Fill out the form below and we'll contact you to schedule your personalized consultation.</p>
+                
+                <form id="bookingForm" class="booking-form">
+                    <!-- Personal Information -->
+                    <div class="form-group-header">
+                        <h3>Personal Information</h3>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstName">First Name *</label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="lastName">Last Name *</label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" placeholder="(800) 436-4479" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="age">Age *</label>
+                            <select id="age" name="age" required>
+                                <option value="">Select Age</option>
+                                <option value="59">59</option>
+                                <option value="60">60</option>
+                                <option value="61">61</option>
+                                <option value="62">62</option>
+                                <option value="63">63</option>
+                                <option value="64">64</option>
+                                <option value="65">65</option>
+                                <option value="66">66</option>
+                                <option value="67">67</option>
+                                <option value="68">68</option>
+                                <option value="69">69</option>
+                                <option value="70">70</option>
+                                <option value="71">71</option>
+                                <option value="72">72</option>
+                                <option value="73">73</option>
+                                <option value="74">74</option>
+                                <option value="75">75</option>
+                                <option value="75+">75+</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Address -->
+                    <div class="form-group-header">
+                        <h3>Address</h3>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="streetAddress">Street Address *</label>
+                        <input type="text" id="streetAddress" name="streetAddress" required>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="city">City *</label>
+                            <input type="text" id="city" name="city" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="state">State *</label>
+                            <select id="state" name="state" required>
+                                <option value="">Select State</option>
+                                <option value="AL">Alabama</option>
+                                <option value="AK">Alaska</option>
+                                <option value="AZ">Arizona</option>
+                                <option value="AR">Arkansas</option>
+                                <option value="CA">California</option>
+                                <option value="CO">Colorado</option>
+                                <option value="CT">Connecticut</option>
+                                <option value="DE">Delaware</option>
+                                <option value="FL">Florida</option>
+                                <option value="GA">Georgia</option>
+                                <option value="HI">Hawaii</option>
+                                <option value="ID">Idaho</option>
+                                <option value="IL">Illinois</option>
+                                <option value="IN">Indiana</option>
+                                <option value="IA">Iowa</option>
+                                <option value="KS">Kansas</option>
+                                <option value="KY">Kentucky</option>
+                                <option value="LA">Louisiana</option>
+                                <option value="ME">Maine</option>
+                                <option value="MD">Maryland</option>
+                                <option value="MA">Massachusetts</option>
+                                <option value="MI">Michigan</option>
+                                <option value="MN">Minnesota</option>
+                                <option value="MS">Mississippi</option>
+                                <option value="MO">Missouri</option>
+                                <option value="MT">Montana</option>
+                                <option value="NE">Nebraska</option>
+                                <option value="NV">Nevada</option>
+                                <option value="NH">New Hampshire</option>
+                                <option value="NJ">New Jersey</option>
+                                <option value="NM">New Mexico</option>
+                                <option value="NY">New York</option>
+                                <option value="NC">North Carolina</option>
+                                <option value="ND">North Dakota</option>
+                                <option value="OH">Ohio</option>
+                                <option value="OK">Oklahoma</option>
+                                <option value="OR">Oregon</option>
+                                <option value="PA">Pennsylvania</option>
+                                <option value="RI">Rhode Island</option>
+                                <option value="SC">South Carolina</option>
+                                <option value="SD">South Dakota</option>
+                                <option value="TN">Tennessee</option>
+                                <option value="TX">Texas</option>
+                                <option value="UT">Utah</option>
+                                <option value="VT">Vermont</option>
+                                <option value="VA">Virginia</option>
+                                <option value="WA">Washington</option>
+                                <option value="WV">West Virginia</option>
+                                <option value="WI">Wisconsin</option>
+                                <option value="WY">Wyoming</option>
+                                <option value="DC">District of Columbia</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="zipCode">Zip Code *</label>
+                            <input type="text" id="zipCode" name="zipCode" pattern="[0-9]{5}" required>
+                        </div>
+                    </div>
+
+                    <!-- Financial Information -->
+                    <div class="form-group-header">
+                        <h3>Financial Information</h3>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Total Investable Assets *</label>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="assets" value="$500k-$750k" required>
+                                <span>$500k - $750k</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="assets" value="$750k-$1M">
+                                <span>$750k - $1M</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="assets" value="$1M-$2M">
+                                <span>$1M - $2M</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="assets" value="$2M-$5M">
+                                <span>$2M - $5M</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="assets" value="$5M+">
+                                <span>$5M+</span>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Retirement Account Types (Check all that apply)</label>
+                        <div class="checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="accountTypes" value="Traditional IRA">
+                                <span>Traditional IRA</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="accountTypes" value="401(k) or 403(b)">
+                                <span>401(k) or 403(b)</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="accountTypes" value="Rollover IRA">
+                                <span>Rollover IRA</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="accountTypes" value="SEP IRA">
+                                <span>SEP IRA</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="accountTypes" value="Other">
+                                <span>Other</span>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Current Retirement Status *</label>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="currentStatus" value="Retired" required>
+                                <span>Retired</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="currentStatus" value="Within 5 years of retirement">
+                                <span>Within 5 years of retirement</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="currentStatus" value="Within 10 years of retirement">
+                                <span>Within 10 years of retirement</span>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Primary Goals (Check all that apply)</label>
+                        <div class="checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="primaryGoals" value="Reduce lifetime taxes">
+                                <span>Reduce lifetime taxes</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="primaryGoals" value="Maximize retirement income">
+                                <span>Maximize retirement income</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="primaryGoals" value="Protect legacy for heirs">
+                                <span>Protect legacy for heirs</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="primaryGoals" value="Avoid RMD surprises">
+                                <span>Avoid RMD surprises</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="primaryGoals" value="All of the above">
+                                <span>All of the above</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Additional Information -->
+                    <div class="form-group-header">
+                        <h3>Additional Information</h3>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="howHeard">How did you hear about us?</label>
+                        <select id="howHeard" name="howHeard">
+                            <option value="">Select One</option>
+                            <option value="Google Search">Google Search</option>
+                            <option value="Referral">Referral from Friend/Family</option>
+                            <option value="Facebook">Facebook</option>
+                            <option value="LinkedIn">LinkedIn</option>
+                            <option value="Email">Email</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="comments">Additional Comments (Optional)</label>
+                        <textarea id="comments" name="comments" rows="4" placeholder="Any specific questions or concerns you'd like to discuss?"></textarea>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="form-submit">
+                        <button type="submit" class="cta-button">Schedule My Complimentary Retirement Tax Consultation</button>
+                        <p class="form-disclaimer">No obligation. Confidential. Personalized to your situation.</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <img src="images/david-facer.jpg" alt="David Facer - Roth Conversion Specialist" class="footer-photo">
+                    <div class="footer-name">
+                        <h3>David Facer</h3>
+                        <p>Roth Conversion Specialist</p>
+                    </div>
+                </div>
+                
+                <div class="footer-center">
+                    <p><strong>Phone:</strong> <a href="tel:+18004364479">(800) 436-4479</a></p>
+                    <p><strong>Email:</strong> <a href="mailto:info@westernadvisors.com">info@westernadvisors.com</a></p>
+                    <p class="copyright">&copy; 2026 Western Advisors. All rights reserved.</p>
+                </div>
+                
+                <div class="footer-right">
+                    <div class="footer-logo-container">
+                        <img src="images/western-advisors-logo.png" alt="Western Advisors Logo" class="footer-logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/booking.js"></script>
+</body>
+</html>
